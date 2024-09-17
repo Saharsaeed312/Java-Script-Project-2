@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE PRINTER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <h1>Table Printer</h1>
+                <label for="table-num">Which Table Do You Want To Print?</label>
+                <input type="number" id="table-num">
+                <label for="min-length">Number To Start Table</label>
+                <input type="number" id="min-length">
+                <label for="max-length">Number To End Table</label>
+                <input type="number" id="max-length">
+            <button class="print" onclick="tablePrint()">Print Table</button>
+            <button class="reset" onclick="reset()">Reset</button>
+            <p id="display"></p>
+    <script src="script.js"></script>
+</body>
+
+</html>
